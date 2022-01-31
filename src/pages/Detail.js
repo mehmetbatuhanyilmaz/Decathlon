@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App';
 import '../App.css';
-import image from "../images/background2.gif";
-export default function Users() {
+import image from "../images/background3.gif";
+
+export default function Detail() {
   return (
     <>
      
-    <div className='users' style={{ backgroundImage: `url(${image})` }}>
+    <div className='detail' style={{ backgroundImage: `url(${image})` }}>
 
 
 

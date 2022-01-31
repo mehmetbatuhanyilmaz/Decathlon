@@ -4,7 +4,7 @@ import Footer from '../src/components/Footer/Footer'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../src/pages/Home';
-import Products from '../src/pages/Products';
+import Detail from './pages/Detail';
 import Users from '../src/pages/Users';
 
 
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/products' component={Products} />
+        <Route path='/detail' component={Detail} />
         <Route path='/users' component={Users} />
       </Switch>
       <Footer/>
