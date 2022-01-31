@@ -9,6 +9,8 @@ Netlify Link:
 # Programmer
 
 - Mehmet Batuhan Yılmaz 👨🏻‍💻 [Batuhan](https://github.com/mehmetbatuhanyilmaz)
+- [LinkedIn](https://www.linkedin.com/in/mehmetbatuhanyilmaz1996/)
+- [Behance](https://www.behance.net/mehmetbatuhanyilmaz)
 
 ---
 
