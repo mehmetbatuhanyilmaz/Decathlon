@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
+
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -11,7 +13,7 @@ function Footer() {
     <>
       <footer className="footer ">
         <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-          All Rights Reserved | Copyright © - PIXtagram_
+          All Rights Reserved | Copyright © - PIXtagram
           <i className="fab fa-instagram" aria-hidden="true"/>
         </Link>
         <ul className={click ? "foot-menu active" : "foot-menu"}>

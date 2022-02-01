@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import '../Navbar/Navbar.css';
 
 
 function Navbar() {
+
+
+
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 

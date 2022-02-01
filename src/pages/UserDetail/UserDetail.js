@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App';
-import '../App.css';
-import image from "../images/background3.gif";
+import '../../App';
 
-export default function Detail() {
+import image from "../../images/background3.gif";
+
+export default function UserDetail() {
   return (
     <>
      
@@ -13,6 +13,7 @@ export default function Detail() {
 
 
     <br/><br/><br/><br/><br/><br/><br/>
+    
     </div>
      
 

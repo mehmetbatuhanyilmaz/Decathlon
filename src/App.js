@@ -3,9 +3,9 @@ import Navbar from '../src/components/Navbar/Navbar';
 import Footer from '../src/components/Footer/Footer'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from '../src/pages/Home';
-import Detail from './pages/Detail';
-import Users from '../src/pages/Users';
+import PostList from '../src/pages/PostList/PostList';
+import UserDetail from '../src/pages/UserDetail/UserDetail';
+import UserList from '../src/pages/UserList/UsersList';
 
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/detail' component={Detail} />
-        <Route path='/users' component={Users} />
+        <Route path='/' exact component={PostList} />
+        <Route path='/detail' component={UserDetail} />
+        <Route path='/users' component={UserList} />
       </Switch>
       <Footer/>
     </Router>
