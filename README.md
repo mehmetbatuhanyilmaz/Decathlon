@@ -49,7 +49,7 @@ https://coolors.co/contrast-checker/112a46-acc8e5 <br/> ile renklerin uyumları 
 # Visual Diagrams
 ---
 <br/>
-<img alt="img" src="./" 
+<img alt="img" src="./Visual Diagrams/image1.png" 
         style="float: left; width:650px; height:400px;" />  <br/>
         
 <img alt="img" src="./" 
