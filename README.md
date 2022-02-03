@@ -2,7 +2,7 @@
 ---
 # React.Js - API Web Developing Project
 ---
-Netlify Link: https://decathlon-pixtagram-react-app.netlify.app/
+Netlify Link: https://decathlon-pixtagram-react-app.netlify.app/ <br/>
 You can reach the live project from this link / Bu linkten canlı projeye ulaşabilirsiniz
 ---
 
