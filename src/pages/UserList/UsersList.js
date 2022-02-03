@@ -5,7 +5,7 @@ import 'semantic-ui-css/semantic.min.css'
 import UserService from "../../services/userServices";
 import '../../App.css';
 import image from "../../images/background1.gif";
-import { borderRadius } from "@mui/system";
+
 
 
 export default function UserList() {
