@@ -4,6 +4,7 @@
 ---
 Netlify Link: https://decathlon-pixtagram-react-app.netlify.app/ <br/>
 You can reach the live project from this link / Bu linkten canlı projeye ulaşabilirsiniz
+
 ---
 # About of the Project
 ---
@@ -21,6 +22,8 @@ API services (DummyApi.io)
 UI Features;
 A gradient live background is used in the body.
 Soft pastel colors were preferred as the color selection.
+
+
 ---
 <br/>
 <img alt="gif" src="./" 
