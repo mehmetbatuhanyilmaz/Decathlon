@@ -4,8 +4,9 @@ import Footer from '../src/components/Footer/Footer'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PostList from '../src/pages/PostList/PostList';
+import UserList from './pages/UserList/UsersList';
 import UserDetail from '../src/pages/UserDetail/UserDetail';
-import UserList from '../src/pages/UserList/UsersList';
+
 
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={PostList} />
-        <Route path='/detail' component={UserDetail} />
         <Route path='/users' component={UserList} />
+        <Route path='/detail' component={UserDetail} />
       </Switch>
       <Footer/>
     </Router>
