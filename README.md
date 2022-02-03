@@ -8,7 +8,7 @@ You can reach the live project from this link / Bu linkten canlı projeye ulaşa
 ---
 # About of the Project
 ---
-EN:
+EN: <br/>
 Front End Features; <br/>
 It is a project developed with React.js. The main purpose is to use API services. In this project, the API service named Dummyapi.io was used. On the homepage, there are the posts of the users. We can access the User List with the Users button on the navbar. In addition, we can access detailed information of users by clicking on them.
 
@@ -27,7 +27,7 @@ https://coolors.co/contrast-checker/112a46-acc8e5 <br/>The harmony of colors was
 
 ---
 
-TR:
+TR: <br/>
 Front End Özellikleri; <br/>
 React.js ile geliştirilmiş bir projedir API servis yapısını kullanarak Kullanıcı Gönderileri, Kullanıcıların Profilleri ve bu Profillerin Detaylarının olduğu bir paylaşım sayfası tasarlamadım.
 
