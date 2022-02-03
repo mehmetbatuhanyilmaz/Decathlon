@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={PostList} />
         <Route path='/users' component={UserList} />
-        <Route path='/detail' component={UserDetail} />
+        <Route path='/user/:id' component={UserDetail} />
       </Switch>
       <Footer/>
     </Router>

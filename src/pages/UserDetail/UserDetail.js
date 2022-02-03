@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import UserService from "../../services/userServices";
 import { useParams } from "react-router";
-import { List, Item, Grid } from "semantic-ui-react";
+import { List, Item, Grid, Image} from "semantic-ui-react";
 import '../../App';
 import image from "../../images/background1.gif";
 
@@ -17,25 +17,32 @@ export default function UserDetail() {
   if (user)
     return (
     <>
+    
      
-    <div className='detail' style={{ backgroundImage: `url(${image})` }}>
+    <div className='userdetail' style={{ backgroundImage: `url(${image})` }}>
 
-
-    <Grid>
-          <Grid.Row>
+    <br/><br/>
+    <Grid style={{marginLeft:"250px" ,marginTop:"50px", width:"1020px", height:"500px",  borderRadius: "15px", border:"solid", borderWidth:"0.5px" , borderColor:"000",}}  >
+          <Grid.Row >
             <Grid.Column width={4}>
               <Item>
-                <Item.Image size="small" src={user.picture} />
+              <Image src={user.picture} 
+               style={{ width:" 150px", height: "150px",
+       borderRadius: '50%',
+     border: '3px solid #fff' 
+    }}
+     />
                 <Item.Description>
+                <br/><br/>
                   {" "}
                   {user.id ? "ID:" + user.id : ""}
                 </Item.Description>
               </Item>
             </Grid.Column>
-            <Grid.Column width={3}>
+            <Grid.Column width={5} >
               <Item>
                 <Item.Content>
-                  <Item.Header as="h4">{`${user.title ? user.title : ""} ${
+                  <Item.Header as="h3" style={{marginTop:"20px",}}>{` ${
                     user.firstName ? user.firstName : ""
                   } ${user.lastName ? user.lastName : ""}`}</Item.Header>
                   <Item.Description>
@@ -49,11 +56,11 @@ export default function UserDetail() {
                 </Item.Content>
               </Item>
             </Grid.Column>
-            <Grid.Column width={4}>
+            <Grid.Column width={5}>
               <Item>
                 {user.location && (
-                  <Item.Content>
-                    <Item.Header as="h4">Adress</Item.Header>
+                  <Item.Content >
+                    <Item.Header as="h3"  style={{ marginTop:"15px"}}>Adress</Item.Header>
                     <Item.Description>
                       <List>
                         <List.Item>{user.location.street}</List.Item>
@@ -68,11 +75,11 @@ export default function UserDetail() {
             </Grid.Column>
             <Grid.Column width={5}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24067.448778392783!2d28.98446305!3d41.0595685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1sen!2str!4v1634467284909!5m2!1sen!2str"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.876985673047!2d28.8842844!3d40.9985742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee6d36d3411ede67!2zRGVjYXRobG9uIEdlbmVsIE3DvGTDvHJsw7xr!5e0!3m2!1str!2str!4v1643899494066!5m2!1str!2str"
                 mapTypeControl={false}
-                width="300"
-                height="300"
-                style={{ border: "0" }}
+                width="470"
+                height="270"
+                style={{ borderRadius: "15px", border:"solid", borderWidth:"0.5px" , borderColor:"000",marginTop:"-30px", marginLeft:"250px" }}
                 allowfullscreen=""
                 loading="lazy"
               ></iframe>
@@ -80,7 +87,7 @@ export default function UserDetail() {
           </Grid.Row>
         </Grid>
 
-    
+    <br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
      
 
