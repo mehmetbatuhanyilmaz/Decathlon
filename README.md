@@ -44,11 +44,23 @@ Gövde de akışkan canlı bir arkaplan kullanılmıştır. <br/>
 Renk seçimi olarak soft pastel renkler tercih edilmiştir. <br/>
 https://coolors.co/contrast-checker/112a46-acc8e5 <br/> ile renklerin uyumları incelenmiş ve buna göre projede uygulanmıştır.
 
+
+---
+# Visual Diagrams
 ---
 <br/>
+<img alt="img" src="./" 
+        style="float: left; width:650px; height:400px;" />  <br/>
+        
+<img alt="img" src="./" 
+        style="float: left; width:650px; height:400px;" />  <br/>
+        
+<img alt="img" src="./" 
+        style="float: left; width:650px; height:400px;" />  <br/>
+        
+        
 <img alt="gif" src="./" 
         style="float: left; width:650px; height:400px;" /> 
----
 
 
 
