@@ -8,21 +8,41 @@ You can reach the live project from this link / Bu linkten canlı projeye ulaşa
 ---
 # About of the Project
 ---
-Front eND Features;
+EN:
+Front End Features; <br/>
 It is a project developed with React.js. The main purpose is to use API services. In this project, the API service named Dummyapi.io was used. On the homepage, there are the posts of the users. We can access the User List with the Users button on the navbar. In addition, we can access detailed information of users by clicking on them.
 
-Technological Features;
-Developed with React JS.
-React Router Dom,
-Semantic UI React,
-axios,
-API services (DummyApi.io)
+Technological Features; <br/>
+Developed with React JS. <br/>
+React Router Dom, <br/>
+Semantic UI React, <br/>
+Axios, <br/>
+API services (DummyApi.io) <br/>
 
 
-UI Features;
-A gradient live background is used in the body.
-Soft pastel colors were preferred as the color selection.
+UI Features; <br/>
+A gradient live background is used in the body. <br/>
+Soft pastel colors were preferred as the color selection. <br/>
+https://coolors.co/contrast-checker/112a46-acc8e5 <br/>The harmony of colors was examined with this site and applied in the project accordingly.
 
+---
+
+TR:
+Front End Özellikleri; <br/>
+React.js ile geliştirilmiş bir projedir API servis yapısını kullanarak Kullanıcı Gönderileri, Kullanıcıların Profilleri ve bu Profillerin Detaylarının olduğu bir paylaşım sayfası tasarlamadım.
+
+Teknolojik Özellikler; <br/>
+React JS ile geliştirildi. <br/>
+React Router Dom, <br/>
+Semantic UI React, <br/>
+Axios, <br/>
+API Servisi (DummyApi.io) <br/>
+
+
+UI Özellikler; <br/>
+Gövde de akışkan canlı bir arkaplan kullanılmıştır. <br/>
+Renk seçimi olarak soft pastel renkler tercih edilmiştir. <br/>
+https://coolors.co/contrast-checker/112a46-acc8e5 <br/> ile renklerin uyumları incelenmiş ve buna göre projede uygulanmıştır.
 
 ---
 <br/>
